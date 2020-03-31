@@ -5,7 +5,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.sajib-text{
+.text-highlight{
     color: #FFA500;
     
 }
@@ -14,7 +14,14 @@ h1 {
     font-size:50px;
     
 }
-.top-section {
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: dimgray;
+}
+.half-width {
     width: 40%;
     float: left;
     margin-left: 5%;
@@ -33,13 +40,50 @@ h1 {
 .top-btn:hover {
     background: #FB6D59;
 }
-.top-section img {
+.half-width img {
     width: 100%;
 }
 
-.top-banner {
+.hero-area-banner {
      background-image: url(images/top-banner.png);
-     height: 500px;
      background-repeat: no-repeat;
-    
+     height: 500px;
+     
+}
+
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+}
+
+.experience-area {
+    padding-top: 50px;
+    height: 500px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-exp-area {
+    box-shadow: 10px 10px 40px;
+    height: 50%;
+    border-radius: 5px;
+    background: white;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #EE6856, rgb(252, 78, 30));
+    border-image-slice: 1;
+}
+
+#junior-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(115, 48, 238), rgb(15, 139, 255));
+    border-image-slice: 1;  
+}
+
+footer p {
+    text-align: center;
 }
